@@ -29,7 +29,6 @@ body{
 .featured{
     display: flex;
     flex-flow: column;
-    flex-grow: 1;
     justify-content: center;
     background-color: #3CDBC0;
     color: #ffffff;
@@ -52,6 +51,28 @@ body{
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+        align-items: center;
     }
-    
+    .nav_bar{
+        margin-top: 3.5%;
+        height: auto;
+        margin-right: 30px;
+        padding-inline-start: 0px;
+    }
+    .nav_image{
+        width: 155px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .nav_item{
+        margin-right: 20px;
+    }
+}
+.footer{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    background-color: #3CDBC0;   
 }
